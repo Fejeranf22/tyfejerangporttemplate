@@ -17,10 +17,16 @@ Table of contents
 /* ====================
   Main Styles
 =======================*/
+/*fonts :
+font-family: 'Roboto', sans-serif;
+font-family: 'Kurale', serif;
+font-family: 'Open Sans', sans-serif;
+/*============================*/
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Poppins:400,700');
 html,
 body {
 	height: 100%;
+	background-color: #D39E8B;
 	font-family: "Montserrat", sans-serif;
 }
 
@@ -242,11 +248,12 @@ ul {
 .header-section .menu-list li a {
 	display: inline-block;
 	padding: 10px;
-	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	color: #A0786C;
+	text-shadow: -1px 1px black;
 	position: relative;
-	font-family: "Poppins", sans-serif;
 	text-transform: uppercase;
-	font-size: 12px;
+	font-size: 16px;
 	letter-spacing: 0.09em;
 }
 
@@ -275,8 +282,9 @@ ul {
 
 .header-section.sticky {
 	position: fixed;
-	background: #000;
-	padding: 10px 30px;
+  background: #333;
+  padding: 10px 30px;
+
 }
 
 .header-section.sticky .logo img {
@@ -284,7 +292,7 @@ ul {
 }
 
 .header-section.sticky .menu-list li a {
-	color: #a0a0a0;
+	/*color: #a0a0a0;*/
 }
 
 .header-section.sticky .menu-list li a:after {
@@ -334,8 +342,12 @@ ul {
 	top: 0;
 	z-index: 1;
 }
-
+/***8****************************************************/
 .intro-inner {
+	background-image:url("../img/ty-img/IMG_3021.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+/*added styles above this line*/
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -349,6 +361,7 @@ ul {
 	display: table-cell;
 	vertical-align: middle;
 	text-align: center;
+  border-bottom: 2em solid #333;
 }
 
 .intro-inner .intro-content .container {
@@ -356,18 +369,21 @@ ul {
 }
 
 .intro-inner .intro-content h2 {
-	color: #fff;
-	font-size: 100px;
-	letter-spacing: -3px;
-	font-weight: bold;
+	font-family: 'Kurale', serif;
+  text-shadow: -2px 1px grey;
+  font-size: 104px;
+  letter-spacing: 4px;
 }
 
 .intro-inner .intro-content p {
 	margin-top: 20px;
-	color: #fff;
+	color: #333;
 }
 
 
+
+
+/************************************************/
 
 /* ====================
   About Section
