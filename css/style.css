@@ -32,6 +32,8 @@ body {
 
 img {
 	max-width: 100%;
+  border: 1em solid transparent;
+  border-radius: 53%;
 }
 
 h1,
@@ -47,7 +49,7 @@ h6 {
 
 p {
 	font-size: 17px;
-	color: #777777;
+	text-shadow: 1px 3px 20px lightblue;
 	line-height: 30px;
 	font-family: "Poppins", sans-serif;
 }
@@ -344,7 +346,7 @@ ul {
 }
 /***8****************************************************/
 .intro-inner {
-	background-image:url("../img/ty-img/IMG_3021.jpg");
+	background-image:url("../img/ty-img/IMG_2498.JPG");
 	background-repeat: no-repeat;
 	background-size: cover;
 /*added styles above this line*/
@@ -361,7 +363,6 @@ ul {
 	display: table-cell;
 	vertical-align: middle;
 	text-align: center;
-  border-bottom: 2em solid #333;
 }
 
 .intro-inner .intro-content .container {
@@ -370,16 +371,16 @@ ul {
 
 .intro-inner .intro-content h2 {
 	font-family: 'Kurale', serif;
-  text-shadow: -2px 1px grey;
+	color: #A0786C;
+  text-shadow: 3px 3px 15px #333;
   font-size: 104px;
   letter-spacing: 4px;
 }
 
 .intro-inner .intro-content p {
 	margin-top: 20px;
-	color: #333;
+	color: #A0786C;
 }
-
 
 
 
@@ -831,11 +832,12 @@ ul {
 		font-size: 40px;
 	}
 }
+/* this is the pencil holder animation
 @media only screen and (max-width: 1090px) {
 	#background-1 {
 		background-position: right -30px top -45px;
 	}
-}
+}*/
 
 
 /* Large Mobile :480px. */
@@ -889,6 +891,7 @@ ul {
 		font-size: 50px;
 	}
 	.about-img {
+		border: 1px solid red;
 		margin-bottom: 20px;
 	}
 	.about-top h2{
