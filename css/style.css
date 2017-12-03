@@ -26,8 +26,9 @@ font-family: 'Open Sans', sans-serif;
 html,
 body {
 	height: 100%;
-	background-color: #D39E8B;
+	background-color: #f3ece7;
 	font-family: "Montserrat", sans-serif;
+    box-shadow: 0 0 25px 0px rgba(0, 0, 0, 0.26)
 }
 
 img {
@@ -48,6 +49,7 @@ h6 {
 }
 
 p {
+	
 	font-size: 17px;
 	text-shadow: 1px 3px 20px lightblue;
 	line-height: 30px;
@@ -120,11 +122,12 @@ ul {
 }
 
 .stitle h2 {
-	font-family: "Poppins", sans-serif;
+	font-family: 'Kurale', serif;
 	font-size: 36px;
 	font-weight: 700;
 	text-transform: capitalize;
-	color: #000;
+	color: #333;
+	text-shadow: -2px 2px 3px #fff
 }
 
 .site-btn {
@@ -284,8 +287,9 @@ ul {
 
 .header-section.sticky {
 	position: fixed;
-  background: #333;
+  background: #f3ece7;
   padding: 10px 30px;
+	color: #333;
 
 }
 
@@ -456,7 +460,10 @@ ul {
   Service Section
 =======================*/
 .service-section {
-	background: #ddd;
+	box-shadow: 0 0 25px 0px rgba(0, 0, 0, 0.26);
+	background-image: url("../img/ty-img/IMG_1569.JPG");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .service-item {
@@ -768,7 +775,7 @@ ul {
   Footer Section
 =======================*/
 .footer-section {
-	background: #111;
+	background: aliceblue;
 	text-align: center;
 	padding: 70px 0;
 }
@@ -891,7 +898,6 @@ ul {
 		font-size: 50px;
 	}
 	.about-img {
-		border: 1px solid red;
 		margin-bottom: 20px;
 	}
 	.about-top h2{
